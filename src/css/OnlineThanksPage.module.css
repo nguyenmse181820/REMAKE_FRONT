@@ -1,0 +1,14 @@
+.continueShoppingButton {
+    border-radius: 0;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+.continueShoppingButton:hover {
+    border-radius: 0;
+    background-color: black;
+    color: white;
+    transform:scale(0.98)
+}

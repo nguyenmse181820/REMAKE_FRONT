@@ -1,0 +1,12 @@
+.list-page {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.page-title {
+    font-size: 2.8em;
+    font-weight: semibold;
+    margin: 0.8em 0;
+    text-align: center;
+}
+.content {
+    font-size: 1em;
+}

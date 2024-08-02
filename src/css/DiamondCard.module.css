@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #ffffff;
+    cursor: pointer; 
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 1px solid #48AAAD;
+}
+
+.selected {
+    border-color: #48AAAD;
+    box-shadow: 0 0 10px rgba(72, 170, 173, 0.5);
+}
+
+.cardBody {
+    padding: 16px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cardTitle {
+    margin-bottom: 12px;
+    align-items: center;
+    font-weight: 540;
+}
+
+.cardStatus {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #48AAAD;
+    align-content: center;
+}

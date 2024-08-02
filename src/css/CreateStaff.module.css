@@ -1,0 +1,17 @@
+#create-staff h1 {
+    text-transform: uppercase;
+}
+
+#back-btn {
+    font-size: 3rem;
+    transition: 0.3s ;
+    cursor: pointer;
+}
+
+#back-btn:hover {
+    transform: scale(1.3);
+}
+
+.input-group>span {
+    width: 6rem;
+}

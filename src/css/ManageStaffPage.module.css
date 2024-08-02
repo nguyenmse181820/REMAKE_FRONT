@@ -1,0 +1,44 @@
+.staffButton {
+    background-color: #48AAAD;
+    color: white;
+    transition: 0.3s;
+}
+
+.staffButton:hover {
+    background-color: rgba(72, 170, 173, 70%);
+    color: white;
+}
+
+#manage-staff h1 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+#search-bar input {
+    width: 100%;
+    height: 100%;
+}
+
+#action-button {
+    cursor: pointer;
+}
+
+.popup-div button {
+    display: block;
+    width: 5rem;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+.popup-div button:hover {
+    background-color: black;
+    color: white;
+}
+
+.input-label {
+    width: 4rem;
+}

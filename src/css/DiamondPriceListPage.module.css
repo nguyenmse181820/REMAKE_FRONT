@@ -1,0 +1,57 @@
+.diamond-price-list {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+#shape-div {
+    height: 6rem;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 0.5rem 0 0 0;
+    border-radius: 0.5rem;
+}
+
+#shape-div:hover {
+    transform: scale(1.1);
+}
+
+#shape-div.active {
+    background-color: #48AAAD;
+}
+
+#shape-div span {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+#shape-div img {
+    display: block;
+    margin: auto;
+    height: 4rem;
+}
+
+#origin-row {
+    padding: 0.2rem;
+    border: 0.1rem solid #48AAAD;
+}
+
+#origin-div {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: transparent;
+}
+
+#origin-div.active {
+    background-color: #48AAAD;
+    color: white;
+}
+
+.diamond-price-list table th, td {
+    width: 11.11%;
+}

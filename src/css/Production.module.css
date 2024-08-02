@@ -1,0 +1,42 @@
+#production h1 {
+    color: #48AAAD;
+}
+
+#go-back-icon {
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    color: #48AAAD;
+    left: 0;
+}
+
+#go-back-icon:hover {
+    left: -5px;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 4rem;
+    transition: 0.3s;
+}
+
+.custom-button {
+    font-weight: semibold;
+    color: white;
+    background-color: #48AAAD;
+    border-radius: 2px;
+    border: none;
+    padding: 0.5rem 1rem;
+    transition: 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #5db8bb;
+    transform: scale(0.95);
+}

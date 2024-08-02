@@ -1,0 +1,18 @@
+.nav-link {
+    transition: 0.3s;
+    color: #A6ABC8;
+}
+
+.nav-link:hover {
+    background-color: rgba(72, 170, 173,0.3);
+    color: #338c8f;
+}
+
+.nav-link.active {
+    background-color: #285E5F;
+    color: #FFFFFF;
+}
+
+.user {
+    color: #A6ABC8;
+}

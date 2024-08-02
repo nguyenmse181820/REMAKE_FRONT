@@ -1,0 +1,17 @@
+#ua-title {
+    top: 7vw;
+    font-size: 3vw;
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    margin: 0;
+}
+
+#ua-button {
+    top: 11vw;
+}
+
+#ua-button>button {
+    font-size: 1vw;
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    background-color: transparent;
+    border: 0.2vw solid black;
+}

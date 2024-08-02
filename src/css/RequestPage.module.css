@@ -1,0 +1,28 @@
+.request-table #table-head {
+    border-radius: 10px 10px 0 0;
+    background-color: #48AAAD;
+    color: white;
+}
+.request-table {
+    font-size: 1.3rem;
+    text-align: center;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.10);
+    width: 100%;
+}
+
+.request-table #table-head th,td {
+    background-clip: padding-box;
+    padding: 1rem;
+}
+
+.request-table button {
+    font-weight: bold;
+    color: white;
+    background-color: #48AAAD;
+    transition: 0.3s;
+}
+.request-table button:hover {
+    transform: scale(0.97);
+    background-color: #63d0d4;
+    color: white;
+}

@@ -1,0 +1,46 @@
+.request-page .table-container {
+    overflow-y: auto;
+}
+
+.request-page table {
+    font-size: 1.3rem;
+    text-align: center;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.request-page .table-head {
+    background-color: #48AAAD;
+    color: white;
+}
+
+
+
+.request-page thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.request-page .table-head th, .request-page td {
+    background-clip: padding-box;
+    padding: 1rem;
+}
+
+.request-page button {
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #48AAAD;
+    color: white;
+    transition: 0.3s;
+}
+
+.request-page button:hover {
+    background-color: #327c7f;
+    transform: scale(0.97);
+}
+
+.detail {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}

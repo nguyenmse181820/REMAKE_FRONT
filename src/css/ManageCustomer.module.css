@@ -1,0 +1,27 @@
+#manage-customer-search-bar {
+    padding: 0;
+}
+
+#action-button {
+    cursor: pointer;
+}
+
+.popup-div button{
+    display: block;
+    width: 5rem;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+.popup-div button:hover {
+    background-color: black;
+    color: white;
+}
+
+.input-label {
+    width: 6rem;
+}

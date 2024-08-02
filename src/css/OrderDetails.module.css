@@ -1,0 +1,39 @@
+.listItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-icon {
+    top: 0.9rem;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.back-icon:hover {
+    color: #48AAAD;
+    transform: scale(1.1);
+}
+
+.image-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 4rem;
+    transition: 0.3s;
+}
+
+.image-btn:hover {
+    transform: scale(1.1);
+}
+
+.custom-button {
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #48AAAD;
+    color: white;
+    transition: 0.3s;
+}
+.custom-button:hover {
+    background-color: #327c7f;
+    transform: scale(0.97);
+}

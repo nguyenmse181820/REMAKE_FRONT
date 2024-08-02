@@ -1,0 +1,26 @@
+.container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: justify;
+}
+.category-selector {
+    gap: 1rem;
+}
+.category-selector div {
+    cursor: pointer;
+    transition: 0.3s all; /* Include 'all' to animate both transform and background-color */
+    padding: 10px; /* Add padding for better visibility */
+    box-sizing: border-box; /* Ensures padding doesn't affect overall dimensions */
+    border: 2px solid white;
+}
+
+.category-selector div:hover {
+    transform: scale(1.03); /* Grow in size */
+    border: 2px solid #48AAAD; /* Subtle border using theme color */
+    background-color: #e6f7f7; /* Lighter shade for hover */
+}
+
+.category-selector div.active {
+    background-color: #48AAAD; /* Theme color for active state */
+    color: white; /* Change text color for better contrast */
+    border: 2px solid #48AAAD; /* Maintain border consistency */
+}

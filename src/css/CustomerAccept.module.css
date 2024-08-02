@@ -1,0 +1,25 @@
+#customer-accept h1{
+    color: #48AAAD;
+}
+
+#go-back-icon {
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    color: #48AAAD;
+    left: 0;
+}
+
+#go-back-icon:hover {
+    left: -5px;
+}
+
+.submit-button {
+    background-color: #48AAAD;
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: rgba(72, 170, 173, 0.3);
+    color: #338c8f;
+}

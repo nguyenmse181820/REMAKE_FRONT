@@ -1,0 +1,165 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2vh 4vw;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imageSection {
+    padding: 20px;
+    text-align: center;
+}
+.image-section img {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.option {
+    background-color: #dddddd4e;
+    padding: 15px;
+    margin-bottom: 2vh;
+}
+
+.diamondImage {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.detailsSection {
+    flex: 1.5;
+    padding: 20px;
+}
+
+.diamondTitle {
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 500;
+    color: #327c7f; 
+}
+
+.paymentOptions {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.optionBox {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.iconContainer {
+    background-color: #b9eddd;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    justify-content: center;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.specItem {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.specItem span:first-child {
+    text-align: left;
+}
+
+.specItem span:last-child {
+    text-align: right;
+}
+
+.primaryButton {
+    padding: 10px 20px;
+    background-color: #48AAAD;
+    color: white;
+    border: none;   
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.primaryButton:hover {
+    background-color: #327c7f;
+    transform: scale(0.98);
+}
+
+.removeButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #880808;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.removeButton:hover {
+    background-color: #9e0000;
+    transform: scale(0.98);
+}
+
+.secondaryButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #b9eddd;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+}
+
+.secondaryButton:hover {
+    background-color: #87cbb9;
+}
+
+.additionalInfo {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+@media (max-width: 991px) {
+    .container {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .imageSection {
+        padding: 10px 0;
+    }
+
+    .detailsSection {
+        padding: 10px 0;
+    }
+
+    .paymentOptions {
+        padding: 10px 0;
+    }
+}

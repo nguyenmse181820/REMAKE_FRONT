@@ -1,0 +1,33 @@
+#manage-price h1 {
+    text-transform: uppercase;
+}
+
+#manage-price option,select {
+    text-transform: capitalize;
+}
+
+#manage-price .select-label {
+    width: 10rem;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+#manage-price table {
+    font-size: 0.9rem;
+    text-transform: capitalize;
+}
+
+.manage-price-button {
+    background-color: #48AAAD;
+    border-color: #48AAAD;
+}
+
+.manage-price-button:hover {
+    background-color: #409396;
+}
+
+.active-page {
+    background-color: #48AAAD;
+    color: white;
+}

@@ -1,0 +1,42 @@
+#wait-manager h1 {
+    color: #48AAAD;
+}
+
+#go-back-icon {
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    color: #48AAAD;
+    left: 0;
+}
+
+#go-back-icon:hover {
+    left: -5px;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #48AAAD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #327c7f;
+}
+
+.secondary-button {
+    color: black;
+    background-color: #b9eddd;
+    border: none;
+}
+
+.secondary-button:hover {
+    background-color: #87cbb9;
+}
+.listItem {
+    display: flex;
+    justify-content: space-between;
+}

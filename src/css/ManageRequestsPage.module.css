@@ -1,0 +1,134 @@
+.status-line {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    /* Increased gap between status items */
+}
+
+.font-small{
+    font-size: 0.7rem;
+
+}
+
+.status-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 4rem;
+    /* Adjust margin for spacing */
+}
+
+
+.status-circle {
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 40px;
+    /* Adjusted size for the circle */
+    height: 40px;
+    /* Adjusted size for the circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+    border: black 1px solid;
+    position: relative;
+    z-index: 1;
+}
+
+.status-circle:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: black;
+}
+
+.status-circle.active {
+    color: white;
+    background-color: black;
+}
+
+.status-circle span {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.status-label {
+    margin-top: 5px;
+    /* Adjusted spacing between circle and label */
+    font-size: 0.7rem;
+    color: #555;
+    /* Text color */
+    max-width: 100px;
+    /* Increased maximum width for the label */
+    word-wrap: break-word;
+    /* Allow long words to break */
+    text-align: center;
+    /* Center-align the text */
+}
+
+#manage-request .table-head {
+    border-radius: 10px 10px 0 0;
+    background-color: #48AAAD;
+    color: white;
+}
+
+
+#manage-request table {
+    font-size: 1.1rem;
+    text-align: center;
+    width: 100%;
+}
+
+#manage-request th,
+td {
+    padding: 1rem;
+}
+
+#manage-request td {
+    background-color: aliceblue;
+}
+
+
+#manage-request button {
+    font-weight: semibold;
+    color: white;
+    background-color: #48AAAD;
+    border-radius: 2px;
+    border: none;
+    padding: 0.5rem 1rem;
+    transition: 0.3s ease;
+}
+
+#manage-request button:hover {
+    background-color: #5db8bb;
+    transform: scale(0.95);
+}
+
+.view-circle {
+    cursor: pointer;
+    background-color: transparent;
+    
+    width: 40px;
+    /* Adjusted size for the circle */
+    height: 40px;
+    /* Adjusted size for the circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.view-circle:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: black;
+}
+
+.view-circle.active {
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,44 @@
+.container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.diamond-finder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 80px;
+}
+.shape {
+    height: 5rem;
+    padding: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.shape:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 1px solid #48AAAD;
+}
+
+.shape.active {
+    border: 1px solid #48AAAD;
+}
+
+
+.btn-custom {
+    background-color: #48AAAD; 
+    color: white; 
+}
+.btn-custom:hover {
+    background-color: aliceblue;
+}
+
+.btn-outline-custom { 
+    color: black; 
+}
+.btn-outline-custom:hover {
+    background-color: aliceblue;
+}

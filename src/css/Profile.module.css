@@ -1,0 +1,68 @@
+.row {
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    position: relative;
+}
+
+.account-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.save-change {
+    border-radius: 0;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+.save-change:hover {
+    border-radius: 0;
+    background-color: black;
+    color: white;
+    transform:scale(0.98)
+}
+
+.img-slide {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    object-fit: cover;
+}
+
+.overlay-content {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 70px; 
+    width: 100%; 
+    text-align: center; 
+}
+@media screen and (max-width: 575px) {
+    .overlay-content {
+      position: inherit;
+      text-align: center;
+    }
+}
+.form-container {
+    margin: 5rem 15rem;
+}
+
+.button-custom {
+    cursor: pointer;
+    background-color: transparent;
+    /* padding: 0.2rem 0; */
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    padding: 0.5rem;
+    transition: 0.3s;
+}
+.button-custom:hover {
+    border-radius: 0;
+    background-color: black;
+    color: white;
+    transform:scale(0.98)
+}

@@ -1,0 +1,11 @@
+#register-google-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    transition: 0.3s;
+}
+
+#register-google-button:hover {
+    background-color: rgb(44, 43, 43);
+}

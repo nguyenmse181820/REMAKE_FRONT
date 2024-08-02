@@ -1,0 +1,10 @@
+.staffButton {
+    background-color: #48AAAD;
+    color: white;
+    transition: 0.3s;
+}
+
+.staffButton:hover {
+    background-color: rgba(72, 170, 173, 70%);
+    color: white;
+}

@@ -1,0 +1,16 @@
+.btn {
+    border-radius: 0;
+    background-color: #48AAAD;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+.btn.disabled {
+    color: white;
+    pointer-events: none;
+    opacity: 50%;
+}

@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imageSection {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* .image-container {
+    top: -10%;
+} */
+.diamondImage {
+    margin-bottom: 0;
+    width: auto;
+    max-height: 100%;
+}
+.row {
+    margin-bottom: 0;
+}
+
+.productImage {
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.detailsSection {
+    flex: 1 1 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: black;
+    transform: scale(0.97);
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .imageSection,
+    .detailsSection {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+.summary {
+    border: 1px solid rgb(168, 168, 168);
+    padding: 2rem;
+}

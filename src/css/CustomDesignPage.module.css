@@ -1,0 +1,37 @@
+.col-md-8 .text-center p {
+    text-align: justify;
+}
+.image-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 4rem;
+    transition: 0.3s;
+}
+
+.image-btn:hover {
+    transform: scale(1.05);
+}
+
+.custom-button {
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #48AAAD;
+    color: white;
+    transition: 0.3s;
+}
+.custom-button:hover {
+    background-color: #327c7f;
+    transform: scale(0.97);
+}
+
+.dark-custom-button {
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #282f2f;
+    color: white;
+    transition: 0.3s;
+}
+
+.dark-custom-button:hover {
+    transform: scale(0.97);
+}

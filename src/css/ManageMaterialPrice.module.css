@@ -1,0 +1,7 @@
+#manage-material-price>h1 {
+    text-transform: uppercase;
+}
+
+#materials {
+    text-transform: capitalize;
+}

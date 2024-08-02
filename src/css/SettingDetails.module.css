@@ -1,0 +1,213 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2vh 4vw;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-section img {
+    width: 100%;
+}
+
+.details-section {
+    flex: 1.5;
+    padding: 20px;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 20px;
+    color: #327c7f;
+    margin-bottom: 20px;
+}
+
+.option {
+    background-color: #dddddd4e;
+    padding: 15px;
+    margin-bottom: 2vh;
+}
+
+.paymentOptions {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.optionBox {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.iconContainer {
+    background-color: #b9eddd;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    justify-content: center;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-details {
+    margin-bottom: 20px;
+}
+
+.detail-item {
+    margin: 5px 0;
+}
+
+.metal-type-section {
+    margin-bottom: 20px;
+}
+
+.metal-type-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.shell-list {
+    display: flex;
+    gap: 5px;
+}
+
+.shell-item {
+    text-transform: uppercase;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    text-align: center;
+    min-width: 50px;
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shell-item.selected {
+    border-color: #327c7f;
+    background-color: #e9f8f9;
+}
+
+.shell-item:hover {
+    border-color: #327c7f;
+}
+
+.shell-label {
+    font-size: 16px;
+}
+
+.shell-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.shell-detail {
+    margin: 5px 0;
+}
+
+.loading {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #48AAAD;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #327c7f;
+    transform: scale(0.98);
+}
+
+.secondary-button {
+    color: black;
+    background-color: #b9eddd;
+    border: none;
+}
+
+.secondary-button:hover {
+    background-color: #87cbb9;
+}
+
+.toggle-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.toggle-button span {
+    font-size: 20px;
+    color: #000;
+}
+
+@media (max-width: 991px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .image-section, .details-section {
+        flex: none;
+        width: 100%;
+    }
+
+    .paymentOptions {
+        gap: 10px;
+    }
+
+    .optionBox {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .iconContainer {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .button {
+        width: 100%;
+    }
+}

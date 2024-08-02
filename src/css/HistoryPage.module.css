@@ -1,0 +1,37 @@
+.history-page .table-container {
+    max-height: 17rem;
+    overflow-y: auto;
+}
+
+.history-page table {
+    font-size: 1.3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.history-page .table-head {
+    background-color: #48AAAD;
+    color: white;
+}
+
+.history-page thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.history-page .table-head th,
+.history-page td {
+    background-clip: padding-box;
+    padding: 1rem;
+}
+
+.staffButton {
+    background-color: #48AAAD;
+    color: white;
+}
+
+.staffButton:hover {
+    background-color: rgba(72, 170, 173, 70%);
+    color: white;
+}

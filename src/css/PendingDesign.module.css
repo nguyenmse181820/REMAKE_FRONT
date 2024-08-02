@@ -1,0 +1,21 @@
+.image-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 4rem;
+    transition: 0.3s;
+}
+
+.image-btn:hover {
+    transform: scale(1.2);
+}
+.back-icon {
+    top: 10rem;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.back-icon:hover {
+    color: #48AAAD;
+    transform: scale(1.1);
+}

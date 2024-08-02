@@ -1,0 +1,73 @@
+.navbar {
+    background-color: #fff;
+    height: 15vh;
+    position: fixed;
+}
+
+.navbar-brand {
+    color: #48AAAD;
+    transition: 0.3s color;
+    margin-left: 3vw;
+}
+
+.login-button {
+    background-color: #48AAAD;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.5s background-color;
+    margin-right: 3vw;
+}
+.login-button:hover {
+    background-color: #264646;
+}
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+    margin-right: 50px;
+}
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+.nav-link {
+    color: #000;
+    /* font-weight: 400; */
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.nav-link:hover, .nav-link:active {
+    color: #48AAAD;
+}
+.nav-login {
+    color: #000;
+    font-weight: 500;
+    position: relative;
+    text-decoration: none;
+}
+.nav-login:hover{
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+@media (min-width: 992px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #48AAAD;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+    .nav-link:hover::before {
+        width: 100%;
+        visibility: visible;
+    }
+}

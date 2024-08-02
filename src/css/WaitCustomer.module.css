@@ -1,0 +1,30 @@
+.submit-button {
+    margin-top: 1.5rem;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    transition: 0.3s;
+    padding: 0.3rem;
+}
+
+.submit-button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(0.97);
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 4rem;
+    transition: 0.3s;
+}
+
+.image-btn:hover {
+    transform: scale(1.2);
+}
