@@ -1,9 +1,7 @@
-import NavigationBar from "../components/NavigationBar";
 import { useEffect, useState } from "react";
 import axios from 'axios';
 import { formatDate, formatPrice } from "../helper_function/ConvertFunction";
 import useDocumentTitle from "../components/Title";
-import { Pagination } from "@mui/material";
 import styles from '/src/css/DiamondPriceListPage.module.css';
 import asscher from '/src/assets/svg/Asscher.svg';
 import cushion from '/src/assets/svg/Cushion.svg';
@@ -15,7 +13,6 @@ import pear from '/src/assets/svg/Pear.svg';
 import princess from '/src/assets/svg/Princess.svg';
 import radiant from '/src/assets/svg/Radiant.svg';
 import round from '/src/assets/svg/Round.svg';
-import { toast } from "sonner";
 
 const SHAPES_IMAGES = [
     { name: 'round', image: round },
